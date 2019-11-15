@@ -1,0 +1,36 @@
+{
+  "id": "org.elastos.trinity.demo.appmanager",
+  "version": "0.0.2",
+  "version_code": 1,
+  "name": "AppManager Demo",
+  "short_name": "appManager Demo",
+  "description": "AppManager sample",
+  "start_url": "index.html",
+  "icons": [
+    {
+        "src": "img/logo.png",
+        "sizes": "512x512",
+        "type": "image/png"
+    }
+  ],
+  "author": {
+      "name": "trinity",
+      "email": ""
+  },
+  "default_locale": "en",
+  "plugins": [],
+  "intents": [
+    "mytest://*"
+  ],
+  "urls": [
+    "http://www.baidu.com/*",
+    "https://www.google.com"
+  ],
+  "background_color": "#4e8ef7",
+  "theme": {
+    "display": "show",
+    "color": "#4e8ef7",
+    "font_name": "default",
+    "font_color": "#4e8ef7"
+  }
+}
